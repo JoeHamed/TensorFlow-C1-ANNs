@@ -36,8 +36,8 @@ This Jupyter Notebook contains the implementation of the assignment. It is divid
  - Outputs the result in hundreds of thousands of dollars.
 
 ## How It Works
-### Scaling the Targets: Prices are scaled to hundreds of thousands to simplify the model's learning process.
-### Simple Architecture: The model uses one dense layer since the relationship is linear.
-### Training Process: The model adjusts its weights and biases during training to minimize the MSE loss.
-### Prediction: After training, the model predicts house prices based on the learned relationship.
+#### 1. Scaling the Targets: Prices are scaled to hundreds of thousands to simplify the model's learning process.
+#### 2. Simple Architecture: The model uses one dense layer since the relationship is linear.
+#### 3. Training Process: The model adjusts its weights and biases during training to minimize the MSE loss.
+#### 4. Prediction: After training, the model predicts house prices based on the learned relationship.
 
