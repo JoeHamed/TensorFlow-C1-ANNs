@@ -17,9 +17,20 @@ Thus, a 1-bedroom house costs $100,000, a 2-bedroom house costs $150,000, and so
 1. housing_prices_prediction.ipynb
 This Jupyter Notebook contains the implementation of the assignment. It is divided into the following exercises:
  1. Create Training Data:
- - Generates numpy arrays for bedrooms (features) and prices (targets).
- - Example:
-   ```python
-   features = np.array([1.0, 2.0, 3.0, 4.0, 5.0, 6.0], dtype=float)
-   targets = np.array([1.0, 1.5, 2.0, 2.5, 3.0, 3.5], dtype=float)
-   ```
+  - Generates numpy arrays for bedrooms (features) and prices (targets).
+  - Example:
+    ```python
+    features = np.array([1.0, 2.0, 3.0, 4.0, 5.0, 6.0], dtype=float)
+    targets = np.array([1.0, 1.5, 2.0, 2.5, 3.0, 3.5], dtype=float)
+    ```
+ 2. Define and Compile Model:
+  - Builds a Sequential model with:
+   - A single Dense layer (1 unit).
+   - Input shape of (1,) (one-dimensional input for number of bedrooms).
+  - Compiles the model with SGD optimizer and MSE loss function.
+ 3. Train the Model:
+ - Trains the model on the training data for 500 epochs.
+ - Monitors the loss during training.
+ 4. Predict Prices:
+ - Uses the trained model to predict the price of a house with 7 bedrooms.
+ - Outputs the result in hundreds of thousands of dollars.
