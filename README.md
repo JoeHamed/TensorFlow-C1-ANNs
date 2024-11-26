@@ -41,3 +41,8 @@ This Jupyter Notebook contains the implementation of the assignment. It is divid
 #### 3. Training Process: The model adjusts its weights and biases during training to minimize the MSE loss.
 #### 4. Prediction: After training, the model predicts house prices based on the learned relationship.
 
+## Key Learnings
+#### - Building a simple neural network for a linear regression problem.
+#### - Using TensorFlow's Sequential API to define and train a model.
+#### - Applying basic optimization techniques (SGD with MSE).
+#### - Scaling data for improved training efficiency.
