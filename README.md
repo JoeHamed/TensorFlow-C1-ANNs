@@ -14,7 +14,7 @@ Thus, a 1-bedroom house costs $100,000, a 2-bedroom house costs $150,000, and so
 - Prediction: Use the trained model to predict prices for houses, such as a 7-bedroom house.
  
 ## Files in Repository
-1. housing_prices_prediction.ipynb
+### 1. housing_prices_prediction.ipynb
 This Jupyter Notebook contains the implementation of the assignment. It is divided into the following exercises:
  1. Create Training Data:
   - Generates numpy arrays for bedrooms (features) and prices (targets).
