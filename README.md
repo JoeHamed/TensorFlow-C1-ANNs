@@ -25,6 +25,11 @@ The on_epoch_end method checks the accuracy after each epoch and stops training 
 The model is trained on the MNIST dataset using the fit method.
 The training stops as soon as the callback detects that the model has reached 98% accuracy.
 ## Requirements
-- Python 3.x
-- TensorFlow 2.x
-- numpy
+- `Python 3.x`
+- `TensorFlow 2.x`
+- `numpy`
+## Expected Output
+- The training will stop before completing 10 epochs, and you should see the following message when the model reaches 98% accuracy:
+  ```python
+  Reached 98% accuracy so cancelling training!
+  ```
