@@ -33,3 +33,8 @@ The training stops as soon as the callback detects that the model has reached 98
   ```python
   Reached 98% accuracy so cancelling training!
   ```
+## Testing
+The code includes tests for:
+  - Creating and compiling the model (`test_create_and_compile_model`).
+  - The custom `EarlyStoppingCallback` (`test_EarlyStoppingCallback`).
+  - The training history and callback functionality (`test_training_history`).
